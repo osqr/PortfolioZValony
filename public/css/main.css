@@ -1,11 +1,32 @@
-.container {
-    display: flex;
+
+
+.column-container {
+    display: flex; /* Flexbox for column layout */
 }
 
-.left-column {
-    width: 30%;
+
+/* Left column styles */
+.column-left {
+    width: 25%;
 }
 
-.right-column {
-    width: 70%;
+/* Right column styles */
+.column-right {
+    width: 75%;
+}
+
+/* Profile image styles */
+.profile-picture {
+    border-radius: 100%; /* Make the image circular */
+    display: block;
+    margin: 0 auto; /* Center image horizontally */
+}
+
+/* settings button styles */
+.settings-button {
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    top: 10px;
+    left: 10px;
 }
